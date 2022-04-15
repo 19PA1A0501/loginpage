@@ -1,0 +1,110 @@
+
+.navbar{
+  color:blue;
+  box-shadow: 0px 3px 20px #D3D3D3;
+}
+#logo{
+  font-weight: bold;
+  color: #264258;
+}
+#dot{
+  color: gold;
+  font-weight: bold;
+  font-size: 15px;
+}
+#fl{
+  margin-left: 70%;
+}
+#button1{
+  border: none;
+  background-color: #023047;
+  color: white;
+  font-size: 13px;
+  height: 35px;
+  width: 150px;
+  border-radius: 3px;
+}
+#button2{
+  border: none;
+  background-color: #FB8500;
+  color: white;
+  font-size: 13px;
+  height: 35px;
+  width: 150px;
+  border-radius: 3px;
+}
+#o{
+  /* background-color: red; */
+  margin-top: 150px;
+  margin-left: 100px;
+}
+#n{
+  height: 600px;
+  background-image: url("https://enligence.com/assets/img/svg/illustrations/illustration-3.svg");
+  background-size: cover;
+}
+.form-control{
+  width: 75%;
+  height: 40px;
+  font-size: 10px;
+}
+h2{
+  color: #023047;
+  font-weight: bold;
+  margin-left: 35px;
+  margin-bottom: 0px;
+}
+#subtext{
+  color: #023047;
+  font-size: 12px;
+  margin-top: 0px;
+  margin-left: 80px;
+  font-weight: bold;
+}
+button{
+  width: 75%;
+  height: 40px;
+  border-radius: 3px;
+  background-color: #023047;
+  color: white;
+  border: none;
+}
+#rempass{
+  font-size: 10px;
+  color: #023047;
+  font-weight: bold;
+}
+#forpass{
+  font-size: 10px;
+  text-decoration: none;
+  color: #023047;
+  font-weight: bold;
+  margin-left: 100px;
+}
+@media only screen and (max-width: 600px) {
+  #o{
+    margin-top: 50px;
+    margin-left: 0px;
+  }
+  h2{
+    margin-left: 20%;
+  }
+  #subtext{
+    margin-left: 28%;
+  }
+  .form-control{
+    width: 100%;
+  }
+  #buttons{
+    width: 100%;
+  }
+  button{
+    width: 0px;
+  }
+  #forpass{
+    margin-left: 60px;
+  }
+  /* #fl{
+    margin-left: 0%;
+  } */
+}
